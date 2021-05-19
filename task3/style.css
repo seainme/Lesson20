@@ -42,4 +42,6 @@
   animation: blinking 2s;
   transition-timing-function: linear;
   transform: rotate(30deg);
+  position: relative;
+  bottom: 8px;
 }
