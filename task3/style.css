@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
 }
-body {
+.spinner{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+margin-top: 50vh;
+margin-left: 50vh;
 }
 .spinner-text {
   font-family: monospace;
@@ -36,6 +35,6 @@ body {
   animation: blinking 2s;
   transition-timing-function: linear;
   transform: rotate(30deg);
-  position: relative;
-  bottom: 8px;
+margin-bottom: 8px;
+  left: -10px;
 }
