@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
 }
-.spinner{
-  display: flex;
-margin-top: 50vh;
-margin-left: 50vh;
+.spinner {
+  display: inline-block;
+  margin-top: 50vh;
+  margin-left: 50vh;
 }
 .spinner-text {
   font-family: monospace;
@@ -35,6 +35,5 @@ margin-left: 50vh;
   animation: blinking 2s;
   transition-timing-function: linear;
   transform: rotate(30deg);
-margin-bottom: 8px;
-  left: -10px;
+  margin-bottom: 8px;
 }
